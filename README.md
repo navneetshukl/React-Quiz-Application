@@ -13,7 +13,7 @@ When you will open the App a home page will appear with three buttons.Add Questi
 
 **Edit Question Button**: It will contain list of all the question and two buttons with **delete** option and **edit option**.On clicking **delete** the question will be deleted and on clicking **edit** you can edit the question.
 
-**Start Quiz Button**: On clicking this button you can start the quiz.At the completion of the quiz your score and final score will be appeared.It will contain a button**Try-Again** by clicking it you can try again.
+**Start Quiz Button**: On clicking this button you can start the quiz.At the completion of the quiz your score and final score will be appeared.It will contain a button**Try-Again** by clicking it you can try again.It will also contain **Home** Button by clicking it you can go to home page.
 
 
 # Installation
