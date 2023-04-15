@@ -1,0 +1,114 @@
+/* Default styles */
+
+.container1 {
+  margin: 100px auto;
+  padding: 30px auto;
+  max-width: 800px;
+  width: 80%;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background-color:#FEC0CE;
+  position: relative;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 0.5em;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+/* Media queries */
+
+/* For screens smaller than 768px (tablets and mobiles) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 0.8em;
+  }
+  
+  .btn {
+    padding: 0.3em 0.8em;
+    font-size: 0.8em;
+  }
+}
+
+/* For screens smaller than 576px (mobiles) */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 0.7em;
+  }
+  
+  .btn {
+    padding: 0.2em 0.6em;
+    font-size: 0.7em;
+  }
+}
