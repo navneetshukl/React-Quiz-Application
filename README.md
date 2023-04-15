@@ -31,10 +31,10 @@ To install the app, follow these steps:
 To install the app, follow these steps:
 
  1. Clone the repository to your local machine:
-       git clone https://github.com/navneetshukl/React-Quiz-App.git
+       git clone https://github.com/navneetshukl/React-Quiz-Application.git
        
  2. Navigate to the project directory:
-      cd React-Quiz-App
+      cd React-Quiz-Application
       
  3. Install the dependencies:
       npm install
